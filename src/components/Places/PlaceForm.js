@@ -18,7 +18,7 @@ const PlaceForm = () => {
         <TextInput style={styles.input} onChangeText={changeTitleHandler} />
       </View>
       <ImagePicker />
-      <LocationPicker />
+      {/* <LocationPicker /> */}
     </ScrollView>
   );
 };
